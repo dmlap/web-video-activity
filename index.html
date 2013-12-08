@@ -13,6 +13,9 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <style>
+          a {
+            color: white;
+          }
           .player-placeholder {
             border: thin dashed #333;
             border-radius: 10px;
@@ -35,7 +38,7 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title">h1.title</h1>
+                <h1 class="title">Programming with Video</h1>
                 <nav>
                     <ul>
                         <li><a href="#add-player">Add a Player</a></li>
@@ -51,8 +54,8 @@
 
                 <article>
                     <header>
-                        <h1>Playing Video on the Web</h1>
-                        <p>You're a software developer for a television show. Your team has been redesigning the show's website and it's time to add the videos. You'll add a video player below and then write code to display your show's logo while the video is playing.</p>
+                        <h1>The Scenario</h1>
+                        <p>You're a software developer for a television show. Your team has been redesigning the show's website and it's time to add the videos. You'll add a video player below and then write some code to display your show's logo while the video is playing.</p>
                         <em class="player-placeholder">insert your video player here!</em>
                     </header>
                     <section id="add-player">
@@ -80,8 +83,15 @@
                 </article>
 
                 <aside>
-                    <h3>aside</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
+                    <h3>Further Considerations</h3>
+                    <p>There are a <em>lot</em> of things that go into playing video on the internet besides just making the player look pretty. If you're curious, here are some good primers:</p>
+                    <ul>
+                      <li><a href="https://developers.google.com/speed/docs/best-practices/rules_intro">web page performance</a></li>
+                      <li><a href="http://en.wikipedia.org/wiki/Transcoding">transcoding</a></li>
+                      <li><a href="http://diveintohtml5.info/video.html">video formats</a></li>
+                      <li><a href="http://en.wikipedia.org/wiki/Content_delivery_network">global distribution</a></li>
+                      <li><a href="https://dvcs.w3.org/hg/html-media/raw-file/tip/media-source/media-source.html">adaptive bitrate streaming</a></li>
+                    </dl>
                 </aside>
 
             </div> <!-- #main -->
@@ -89,7 +99,6 @@
 
         <div class="footer-container">
             <footer class="wrapper">
-                <h3>footer</h3>
             </footer>
         </div>
 
